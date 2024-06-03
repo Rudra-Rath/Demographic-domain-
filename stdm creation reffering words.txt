@@ -1,0 +1,39 @@
+---ID: Identifier
+
+STUDY--: Clinical Trial Study
+
+--SUBJ--: Subject
+
+U----: Unique
+
+----DTC: Date/Time (Char)
+
+RF---: Subject Reference
+
+----X---: Treatment
+
+--STDTC: Start Date/time
+
+--ENDTC: End Date/time
+
+---ST---: Start
+
+---EN---: End
+
+---FL:flag (Y,N, null)
+
+
+
+programming approach:
+
+
+1. map all raw variables to SDTM domain variables
+
+2. shell, empty dataset
+
+3. codelists - proc format
+
+4. combine all data into a single table, calculations
+
+5. calculations, push all the data into the empty dataset
+
